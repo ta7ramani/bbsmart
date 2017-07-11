@@ -137,7 +137,7 @@
                     "ID": "1555",
                     "Name": "สัญญา Loss"
                 },
-                "ProblemOccurCaseNote": "สัญญาณ Loss ที่ระยะ 1500 เมตร จาก Site กฟฟ เชียงคาน",
+                "ProblemOccurCaseNote": "สัญญาณ Loss ที่ระยะ 500 เมตร จาก Site กฟฟ เชียงคาน",
                 "ProblemCause": {
                     "INX": "554",
                     "ID": "C4555",
@@ -164,6 +164,32 @@
                     "Name": "สัญญา Loss 12"
                 },
                 "ProblemOccurCaseNote": "สัญญาณ Loss ที่ระยะ 1500 เมตร ggg",
+                "ProblemCause": {
+                    "INX": "554",
+                    "ID": "C4555",
+                    "Name": "Core Crack 1"
+                },
+                "CoProblemCause": {
+                    "INX": "555554",
+                    "ID": "C457777755",
+                    "Name": "กระรอกกัด w"
+                },
+                "ProblemCauseNote": "สาย Crack เนื่องจากกระรอกกัดfdfdfdf",
+                "Remark": "กระรอกกัดจนเสียหมดทุุก Core dfdfdfd"
+            },
+            {
+                "JobWithActionTakenPointINX": 156,
+                "PointNo": 3,
+                "Caption": "จุดที่ 3",
+                "GeoLat": 14.2470853,
+                "GeoLon": 100.6447112,
+                "OnFieldDate": "2017-07-14T17:00:00",
+                "ProblemOccurCase": {
+                    "INX": "1",
+                    "ID": "1555",
+                    "Name": "สัญญา Loss 12"
+                },
+                "ProblemOccurCaseNote": "สัญญาณ Loss ที่ระยะ 2500 เมตร",
                 "ProblemCause": {
                     "INX": "554",
                     "ID": "C4555",
