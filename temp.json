@@ -1,0 +1,60 @@
+{
+    "JobINX": 1018,
+    "FlocList": [
+        {
+            "FlocItemNo": 1,
+            "JobWithFlocINX": 15,
+            "Floc": {
+                "FlocINX": 3,
+                "FlocID": "PEA-2-NE1-0001-002",
+                "FlocName": "กฟส.เชียงคาน-สฟฟ.เชียงคาน",
+                "FlocTypeINX": 2,
+                "Endpoint1Floc": {
+                    "FlocINX": 1,
+                    "FlocID": "PEA-1-NE1-0001",
+                    "FlocName": "กฟส.เชียงคาน",
+                    "FlocTypeINX": 1
+                },
+                "Endpoint2Floc": {
+                    "FlocINX": 2,
+                    "FlocID": "PEA-1-NE1-0002",
+                    "FlocName": "สฟฟ.เชียงคานน",
+                    "FlocTypeINX": 1
+                },
+                "MatTypeName": "ADSS",
+                "MatKindName": "G.652D",
+                "CoreOrPairQty": 24,
+                "MeasuredLengthInMetre": 8700
+            },
+            "Remark": "เส้นทางที 1"
+        },
+        {
+            "FlocItemNo": 2,
+            "JobWithFlocINX": 16,
+            "Floc": {
+                "FlocINX": 3,
+                "FlocID": "PEA-2-NE1-0001-002",
+                "FlocName": "สฟฟ.เชียงคาน - AAAA",
+                "FlocTypeINX": 2,
+                "Endpoint1Floc": {
+                    "FlocINX": 1,
+                    "FlocID": "PEA-1-NE1-0001",
+                    "FlocName": "สฟฟ.เชียงคานน",
+                    "FlocTypeINX": 1
+                },
+                "Endpoint2Floc": {
+                    "FlocINX": 2,
+                    "FlocID": "PEA-1-NE1-0002",
+                    "FlocName": "AAAA",
+                    "FlocTypeINX": 1
+                },
+                "MatTypeName": "ADSS",
+                "MatKindName": "G.652D",
+                "CoreOrPairQty": 24,
+                "MeasuredLengthInMetre": 8700
+            },
+            "Remark": "เส้นทางที 2"
+        }
+    ],
+    "id": 1
+}
