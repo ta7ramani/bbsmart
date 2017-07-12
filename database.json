@@ -13,15 +13,15 @@
             "JobTypeCodeName": "MTN",
             "ProjectDesc": "BTS CM",
             "NewJobTotal": 0,
-            "MyJobTotal": 5,
+            "MyJobTotal": 0,
             "EndPoint": "OTM"
         },
         {
             "JobTypeCode": "PCM",
             "JobTypeCodeName": "MTN",
             "ProjectDesc": "PEA CM",
-            "NewJobTotal": 2,
-            "MyJobTotal": 15,
+            "NewJobTotal": 0,
+            "MyJobTotal": 0,
             "EndPoint": "JMG"
         }
     ]},
