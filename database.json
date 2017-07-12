@@ -1,5 +1,6 @@
 {
-    "ProjectJobList": [{
+    "ProjectJobList": {
+        "Data":[{
             "JobTypeCode": "M",
             "JobTypeCodeName": "MTN",
             "ProjectDesc": "Transmission CM",
@@ -23,7 +24,7 @@
             "MyJobTotal": 5,
             "EndPoint": "JMG"
         }
-    ],
+    ]},
     "JobWithFlocInfo": [{
             "JobINX": 1,
             "FlocList": [{
