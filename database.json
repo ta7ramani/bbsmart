@@ -1,419 +1,431 @@
 {
-  "JobWithFlocInfo": [
-    {
-      "JobINX": 1,
-      "FlocList": [
+    "ProjectJob": [{
+            "JobTypeCode": "M",
+            "JobTypeCodeName": "MTN",
+            "ProjectDesc": "Transmission CM",
+            "JobTotal": 20,
+            "MyJobTotal": 10,
+            "EndPoint": "OTM"
+        },
         {
-          "FlocItemNo": 1,
-          "JobWithFlocINX": 1,
-          "Floc": {
-            "FlocINX": 3,
+            "JobTypeCode": "MCM",
+            "JobTypeCodeName": "MTN",
+            "ProjectDesc": "BTS CM",
+            "JobTotal": 30,
+            "MyJobTotal": 5,
+            "EndPoint": "OTM"
+        },
+        {
+            "JobTypeCode": "PCM",
+            "JobTypeCodeName": "MTN",
+            "ProjectDesc": "PEA CM",
+            "JobTotal": 45,
+            "MyJobTotal": 5,
+            "EndPoint": "JMG"
+        }
+    ],
+    "JobWithFlocInfo": [{
+            "JobINX": 1,
+            "FlocList": [{
+                    "FlocItemNo": 1,
+                    "JobWithFlocINX": 1,
+                    "Floc": {
+                        "FlocINX": 3,
+                        "FlocID": "PEA-2-NE1-0001-002",
+                        "FlocName": "กฟส.เชียงคาน-สฟฟ.เชียงคาน",
+                        "FlocTypeINX": 2,
+                        "Endpoint1Floc": {
+                            "FlocINX": 1,
+                            "FlocID": "PEA-1-NE1-0001",
+                            "FlocName": "กฟส.เชียงคาน",
+                            "FlocTypeINX": 1
+                        },
+                        "Endpoint2Floc": {
+                            "FlocINX": 2,
+                            "FlocID": "PEA-1-NE1-0002",
+                            "FlocName": "สฟฟ.เชียงคานน",
+                            "FlocTypeINX": 1
+                        },
+                        "MatTypeName": "ADSS",
+                        "MatKindName": "G.652D",
+                        "CoreOrPairQty": 24,
+                        "MeasuredLengthInMetre": 8700
+                    },
+                    "Remark": "เส้นทางที 1"
+                },
+                {
+                    "FlocItemNo": 2,
+                    "JobWithFlocINX": 2,
+                    "Floc": {
+                        "FlocINX": 3,
+                        "FlocID": "PEA-2-NE1-0001-002",
+                        "FlocName": "สฟฟ.เชียงคาน - AAAA",
+                        "FlocTypeINX": 2,
+                        "Endpoint1Floc": {
+                            "FlocINX": 1,
+                            "FlocID": "PEA-1-NE1-0001",
+                            "FlocName": "สฟฟ.เชียงคานน",
+                            "FlocTypeINX": 1
+                        },
+                        "Endpoint2Floc": {
+                            "FlocINX": 2,
+                            "FlocID": "PEA-1-NE1-0002",
+                            "FlocName": "AAAA",
+                            "FlocTypeINX": 1
+                        },
+                        "MatTypeName": "ADSS",
+                        "MatKindName": "G.652D",
+                        "CoreOrPairQty": 24,
+                        "MeasuredLengthInMetre": 8700
+                    },
+                    "Remark": "เส้นทางที 2"
+                }
+            ],
+            "id": 1
+        },
+        {
+            "id": 2,
+            "JobINX": 2,
+            "FlocList": [{
+                "FlocItemNo": 1,
+                "JobWithFlocINX": 15,
+                "Floc": {
+                    "FlocINX": 3,
+                    "FlocID": "PEA-2-AAA-BBB-0001-002",
+                    "FlocName": "AAA-BBB",
+                    "FlocTypeINX": 2,
+                    "Endpoint1Floc": {
+                        "FlocINX": 1,
+                        "FlocID": "PEA-1-AAA-0001",
+                        "FlocName": "AAA",
+                        "FlocTypeINX": 1
+                    },
+                    "Endpoint2Floc": {
+                        "FlocINX": 2,
+                        "FlocID": "PEA-1-BBB-0002",
+                        "FlocName": "BBB",
+                        "FlocTypeINX": 1
+                    },
+                    "MatTypeName": "ADSS",
+                    "MatKindName": "G.652D",
+                    "CoreOrPairQty": 24,
+                    "MeasuredLengthInMetre": 8700
+                },
+                "Remark": "เส้นทางที 1"
+            }]
+        }
+    ],
+    "FlocList": [{
+            "id": 1,
+            "FlocINX": 1,
             "FlocID": "PEA-2-NE1-0001-002",
             "FlocName": "กฟส.เชียงคาน-สฟฟ.เชียงคาน",
             "FlocTypeINX": 2,
             "Endpoint1Floc": {
-              "FlocINX": 1,
-              "FlocID": "PEA-1-NE1-0001",
-              "FlocName": "กฟส.เชียงคาน",
-              "FlocTypeINX": 1
+                "FlocINX": 1,
+                "FlocID": "PEA-1-NE1-0001",
+                "FlocName": "กฟส.เชียงคาน",
+                "FlocTypeINX": 1
             },
             "Endpoint2Floc": {
-              "FlocINX": 2,
-              "FlocID": "PEA-1-NE1-0002",
-              "FlocName": "สฟฟ.เชียงคานน",
-              "FlocTypeINX": 1
+                "FlocINX": 2,
+                "FlocID": "PEA-1-NE1-0002",
+                "FlocName": "สฟฟ.เชียงคานน",
+                "FlocTypeINX": 1
             },
             "MatTypeName": "ADSS",
             "MatKindName": "G.652D",
             "CoreOrPairQty": 24,
             "MeasuredLengthInMetre": 8700
-          },
-          "Remark": "เส้นทางที 1"
         },
         {
-          "FlocItemNo": 2,
-          "JobWithFlocINX": 2,
-          "Floc": {
-            "FlocINX": 3,
-            "FlocID": "PEA-2-NE1-0001-002",
-            "FlocName": "สฟฟ.เชียงคาน - AAAA",
+            "id": 2,
+            "FlocINX": 2,
+            "FlocID": "PEA-2-NE1-0001-003",
+            "FlocName": "กฟส.AAAA-สฟฟ.BBBB",
             "FlocTypeINX": 2,
             "Endpoint1Floc": {
-              "FlocINX": 1,
-              "FlocID": "PEA-1-NE1-0001",
-              "FlocName": "สฟฟ.เชียงคานน",
-              "FlocTypeINX": 1
+                "FlocINX": 3,
+                "FlocID": "PEA-1-NE1-0001",
+                "FlocName": "กฟส.AAAA",
+                "FlocTypeINX": 1
             },
             "Endpoint2Floc": {
-              "FlocINX": 2,
-              "FlocID": "PEA-1-NE1-0002",
-              "FlocName": "AAAA",
-              "FlocTypeINX": 1
+                "FlocINX": 4,
+                "FlocID": "PEA-1-NE1-0002",
+                "FlocName": "สฟฟ.BBBBB",
+                "FlocTypeINX": 1
             },
             "MatTypeName": "ADSS",
             "MatKindName": "G.652D",
             "CoreOrPairQty": 24,
             "MeasuredLengthInMetre": 8700
-          },
-          "Remark": "เส้นทางที 2"
-        }
-      ],
-      "id": 1
-    },
-    {
-      "id": 2,
-      "JobINX": 2,
-      "FlocList": [
+        },
         {
-          "FlocItemNo": 1,
-          "JobWithFlocINX": 15,
-          "Floc": {
+            "id": 3,
             "FlocINX": 3,
-            "FlocID": "PEA-2-AAA-BBB-0001-002",
-            "FlocName": "AAA-BBB",
+            "FlocID": "PEA-2-NE1-0001-004",
+            "FlocName": "กฟส.CCCC-สฟฟ.DDDD",
             "FlocTypeINX": 2,
             "Endpoint1Floc": {
-              "FlocINX": 1,
-              "FlocID": "PEA-1-AAA-0001",
-              "FlocName": "AAA",
-              "FlocTypeINX": 1
+                "FlocINX": 3,
+                "FlocID": "PEA-1-NE1-0001",
+                "FlocName": "กฟส.CCCC",
+                "FlocTypeINX": 1
             },
             "Endpoint2Floc": {
-              "FlocINX": 2,
-              "FlocID": "PEA-1-BBB-0002",
-              "FlocName": "BBB",
-              "FlocTypeINX": 1
+                "FlocINX": 4,
+                "FlocID": "PEA-1-NE1-0002",
+                "FlocName": "สฟฟ.DDDD",
+                "FlocTypeINX": 1
             },
             "MatTypeName": "ADSS",
             "MatKindName": "G.652D",
             "CoreOrPairQty": 24,
             "MeasuredLengthInMetre": 8700
-          },
-          "Remark": "เส้นทางที 1"
         }
-      ]
-    }
-  ],
-  "FlocList": [
-    {
-        "id":1,
-      "FlocINX": 1,
-      "FlocID": "PEA-2-NE1-0001-002",
-      "FlocName": "กฟส.เชียงคาน-สฟฟ.เชียงคาน",
-      "FlocTypeINX": 2,
-      "Endpoint1Floc": {
-        "FlocINX": 1,
-        "FlocID": "PEA-1-NE1-0001",
-        "FlocName": "กฟส.เชียงคาน",
-        "FlocTypeINX": 1
-      },
-      "Endpoint2Floc": {
-        "FlocINX": 2,
-        "FlocID": "PEA-1-NE1-0002",
-        "FlocName": "สฟฟ.เชียงคานน",
-        "FlocTypeINX": 1
-      },
-      "MatTypeName": "ADSS",
-      "MatKindName": "G.652D",
-      "CoreOrPairQty": 24,
-      "MeasuredLengthInMetre": 8700
-    },
-    {
-        "id":2,
-      "FlocINX": 2,
-      "FlocID": "PEA-2-NE1-0001-003",
-      "FlocName": "กฟส.AAAA-สฟฟ.BBBB",
-      "FlocTypeINX": 2,
-      "Endpoint1Floc": {
-        "FlocINX": 3,
-        "FlocID": "PEA-1-NE1-0001",
-        "FlocName": "กฟส.AAAA",
-        "FlocTypeINX": 1
-      },
-      "Endpoint2Floc": {
-        "FlocINX": 4,
-        "FlocID": "PEA-1-NE1-0002",
-        "FlocName": "สฟฟ.BBBBB",
-        "FlocTypeINX": 1
-      },
-      "MatTypeName": "ADSS",
-      "MatKindName": "G.652D",
-      "CoreOrPairQty": 24,
-      "MeasuredLengthInMetre": 8700
-    },
-    {
-        "id":3,
-      "FlocINX": 3,
-      "FlocID": "PEA-2-NE1-0001-004",
-      "FlocName": "กฟส.CCCC-สฟฟ.DDDD",
-      "FlocTypeINX": 2,
-      "Endpoint1Floc": {
-        "FlocINX": 3,
-        "FlocID": "PEA-1-NE1-0001",
-        "FlocName": "กฟส.CCCC",
-        "FlocTypeINX": 1
-      },
-      "Endpoint2Floc": {
-        "FlocINX": 4,
-        "FlocID": "PEA-1-NE1-0002",
-        "FlocName": "สฟฟ.DDDD",
-        "FlocTypeINX": 1
-      },
-      "MatTypeName": "ADSS",
-      "MatKindName": "G.652D",
-      "CoreOrPairQty": 24,
-      "MeasuredLengthInMetre": 8700
-    }
-  ],
-  "JobWithActionPoint": [
-    {
-      "id": 1,
-      "JobINX": 1,
-      "JobWithFlocINX": 1,
-      "JobWithActionTakenPointList": [
+    ],
+    "JobWithActionPoint": [{
+            "id": 1,
+            "JobINX": 1,
+            "JobWithFlocINX": 1,
+            "JobWithActionTakenPointList": [{
+                    "JobWithActionTakenPointINX": 1,
+                    "PointNo": 1,
+                    "Caption": "จุดที่ 1",
+                    "GeoLat": 13.8511753,
+                    "GeoLon": 101.5621727,
+                    "OnFieldDate": "2017-07-14T17:00:00",
+                    "ProblemOccurCase": {
+                        "INX": "1",
+                        "ID": "1555",
+                        "Name": "สัญญา Loss"
+                    },
+                    "ProblemOccurCaseNote": "สัญญาณ Loss ที่ระยะ 500 เมตร จาก Site กฟฟ เชียงคาน",
+                    "ProblemCause": {
+                        "INX": "554",
+                        "ID": "C4555",
+                        "Name": "Core Crack"
+                    },
+                    "CoProblemCause": {
+                        "INX": "555554",
+                        "ID": "C457777755",
+                        "Name": "กระรอกกัด"
+                    },
+                    "ProblemCauseNote": "สาย Crack เนื่องจากกระรอกกัด",
+                    "Remark": "กระรอกกัดจนเสียหมดทุุก Core"
+                },
+                {
+                    "JobWithActionTakenPointINX": 2,
+                    "PointNo": 2,
+                    "Caption": "จุดที่ 2",
+                    "GeoLat": 14.2470853,
+                    "GeoLon": 100.6447112,
+                    "OnFieldDate": "2017-07-14T17:00:00",
+                    "ProblemOccurCase": {
+                        "INX": "1",
+                        "ID": "1555",
+                        "Name": "สัญญา Loss 12"
+                    },
+                    "ProblemOccurCaseNote": "สัญญาณ Loss ที่ระยะ 1500 เมตร ggg",
+                    "ProblemCause": {
+                        "INX": "554",
+                        "ID": "C4555",
+                        "Name": "Core Crack 1"
+                    },
+                    "CoProblemCause": {
+                        "INX": "555554",
+                        "ID": "C457777755",
+                        "Name": "กระรอกกัด w"
+                    },
+                    "ProblemCauseNote": "สาย Crack เนื่องจากกระรอกกัดfdfdfdf",
+                    "Remark": "กระรอกกัดจนเสียหมดทุุก Core dfdfdfd"
+                },
+                {
+                    "JobWithActionTakenPointINX": 3,
+                    "PointNo": 3,
+                    "Caption": "จุดที่ 3",
+                    "GeoLat": 14.2470853,
+                    "GeoLon": 100.6447112,
+                    "OnFieldDate": "2017-07-14T17:00:00",
+                    "ProblemOccurCase": {
+                        "INX": "1",
+                        "ID": "1555",
+                        "Name": "สัญญา Loss 12"
+                    },
+                    "ProblemOccurCaseNote": "สัญญาณ Loss ที่ระยะ 2500 เมตร",
+                    "ProblemCause": {
+                        "INX": "554",
+                        "ID": "C4555",
+                        "Name": "Core Crack 1"
+                    },
+                    "CoProblemCause": {
+                        "INX": "555554",
+                        "ID": "C457777755",
+                        "Name": "กระรอกกัด w"
+                    },
+                    "ProblemCauseNote": "สาย Crack เนื่องจากกระรอกกัดfdfdfdf",
+                    "Remark": "กระรอกกัดจนเสียหมดทุุก Core dfdfdfd"
+                }
+            ]
+        },
         {
-          "JobWithActionTakenPointINX": 1,
-          "PointNo": 1,
-          "Caption": "จุดที่ 1",
-          "GeoLat": 13.8511753,
-          "GeoLon": 101.5621727,
-          "OnFieldDate": "2017-07-14T17:00:00",
-          "ProblemOccurCase": {
-            "INX": "1",
-            "ID": "1555",
-            "Name": "สัญญา Loss"
-          },
-          "ProblemOccurCaseNote": "สัญญาณ Loss ที่ระยะ 500 เมตร จาก Site กฟฟ เชียงคาน",
-          "ProblemCause": {
-            "INX": "554",
-            "ID": "C4555",
-            "Name": "Core Crack"
-          },
-          "CoProblemCause": {
+            "id": 2,
+            "JobINX": 1019,
+            "JobWithFlocINX": 2,
+            "JobWithActionTakenPointList": [{
+                "JobWithActionTakenPointINX": 4,
+                "PointNo": 1,
+                "Caption": "จุดที่ 1",
+                "GeoLat": 13.8511753,
+                "GeoLon": 101.5621727,
+                "OnFieldDate": "2017-07-14T17:00:00",
+                "ProblemOccurCase": {
+                    "INX": "1",
+                    "ID": "1555",
+                    "Name": "สัญญา Loss"
+                },
+                "ProblemOccurCaseNote": "สัญญาณ Loss ที่ระยะ 500 เมตร จาก Site AAA",
+                "ProblemCause": {
+                    "INX": "554",
+                    "ID": "C4555",
+                    "Name": "Core Crack"
+                },
+                "CoProblemCause": {
+                    "INX": "555554",
+                    "ID": "C457777755",
+                    "Name": "กระรอกกัด"
+                },
+                "ProblemCauseNote": "สาย Crack เนื่องจากกระรอกกัด",
+                "Remark": "กระรอกกัดจนเสียหมดทุุก Core"
+            }]
+        }
+    ],
+    "JobTaskList": [{
+        "id": 1,
+        "JobINX": 1,
+        "JobWithFlocINX": 1,
+        "JobWithActionTakenPointINX": 1,
+        "TaskList": [{
+                "TaskINX": 1,
+                "SiteFloc": {
+                    "INX": 1,
+                    "ID": "PEA-1-N3-0001",
+                    "Name": "สฟฟ.เชียงคาน"
+                },
+                "WorkAction": {
+                    "INX": 1,
+                    "ID": "WIRE_OVER",
+                    "Name": "ลากคร่อม"
+                },
+                "WorkActionNote": "ลากคร่อม200 เมตร จากระยะ 1500 จาก สฟฟ เชียงคาน",
+                "StartTaskDate": "2017-07-04T18:01:01",
+                "FinishTaskDate": "2017-07-04T20:15:12",
+                "IsTempWork": "N",
+                "Remark": "จุดที่ลากคร่อมลากผ่านตลาดเทศบาล ได้รับอนุญาตให้ใช้ได้เพียง 1 เดือน จากนั้นต้องปลดออก"
+            },
+            {
+                "TaskINX": 2,
+                "SiteFloc": {
+                    "INX": 2,
+                    "ID": "PEA-1-N3-0001",
+                    "Name": "สฟฟ.เชียงคาน"
+                },
+                "WorkAction": {
+                    "INX": 4,
+                    "ID": "CORE_OP",
+                    "Name": "โยก Core"
+                },
+                "WorkActionNote": "",
+                "StartTaskDate": "2017-07-04T18:01:01",
+                "FinishTaskDate": "2017-07-04T20:15:12",
+                "IsTempWork": "Y",
+                "Remark": ""
+            },
+            {
+                "TaskINX": 3,
+                "SiteFloc": {
+                    "INX": 1,
+                    "ID": "PEA-1-N3-0001",
+                    "Name": "สฟฟ.เชียงคาน"
+                },
+                "WorkAction": {
+                    "INX": 6,
+                    "ID": "PLAN_NEXTFIX",
+                    "Name": "วางแผนกลับมาแก้ไข"
+                },
+                "WorkActionNote": "",
+                "StartTaskDate": "2017-07-04T18:01:01",
+                "FinishTaskDate": "2017-07-04T20:15:12",
+                "IsTempWork": "N",
+                "Remark": ""
+            }
+        ]
+    }],
+    "ProblemCause": [{
             "INX": "555554",
             "ID": "C457777755",
             "Name": "กระรอกกัด"
-          },
-          "ProblemCauseNote": "สาย Crack เนื่องจากกระรอกกัด",
-          "Remark": "กระรอกกัดจนเสียหมดทุุก Core"
         },
         {
-          "JobWithActionTakenPointINX": 2,
-          "PointNo": 2,
-          "Caption": "จุดที่ 2",
-          "GeoLat": 14.2470853,
-          "GeoLon": 100.6447112,
-          "OnFieldDate": "2017-07-14T17:00:00",
-          "ProblemOccurCase": {
-            "INX": "1",
-            "ID": "1555",
-            "Name": "สัญญา Loss 12"
-          },
-          "ProblemOccurCaseNote": "สัญญาณ Loss ที่ระยะ 1500 เมตร ggg",
-          "ProblemCause": {
-            "INX": "554",
-            "ID": "C4555",
-            "Name": "Core Crack 1"
-          },
-          "CoProblemCause": {
-            "INX": "555554",
-            "ID": "C457777755",
-            "Name": "กระรอกกัด w"
-          },
-          "ProblemCauseNote": "สาย Crack เนื่องจากกระรอกกัดfdfdfdf",
-          "Remark": "กระรอกกัดจนเสียหมดทุุก Core dfdfdfd"
-        },
-        {
-          "JobWithActionTakenPointINX": 3,
-          "PointNo": 3,
-          "Caption": "จุดที่ 3",
-          "GeoLat": 14.2470853,
-          "GeoLon": 100.6447112,
-          "OnFieldDate": "2017-07-14T17:00:00",
-          "ProblemOccurCase": {
-            "INX": "1",
-            "ID": "1555",
-            "Name": "สัญญา Loss 12"
-          },
-          "ProblemOccurCaseNote": "สัญญาณ Loss ที่ระยะ 2500 เมตร",
-          "ProblemCause": {
-            "INX": "554",
-            "ID": "C4555",
-            "Name": "Core Crack 1"
-          },
-          "CoProblemCause": {
-            "INX": "555554",
-            "ID": "C457777755",
-            "Name": "กระรอกกัด w"
-          },
-          "ProblemCauseNote": "สาย Crack เนื่องจากกระรอกกัดfdfdfdf",
-          "Remark": "กระรอกกัดจนเสียหมดทุุก Core dfdfdfd"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "JobINX": 1019,
-      "JobWithFlocINX": 2,
-      "JobWithActionTakenPointList": [
-        {
-          "JobWithActionTakenPointINX": 4,
-          "PointNo": 1,
-          "Caption": "จุดที่ 1",
-          "GeoLat": 13.8511753,
-          "GeoLon": 101.5621727,
-          "OnFieldDate": "2017-07-14T17:00:00",
-          "ProblemOccurCase": {
-            "INX": "1",
-            "ID": "1555",
-            "Name": "สัญญา Loss"
-          },
-          "ProblemOccurCaseNote": "สัญญาณ Loss ที่ระยะ 500 เมตร จาก Site AAA",
-          "ProblemCause": {
             "INX": "554",
             "ID": "C4555",
             "Name": "Core Crack"
-          },
-          "CoProblemCause": {
-            "INX": "555554",
-            "ID": "C457777755",
-            "Name": "กระรอกกัด"
-          },
-          "ProblemCauseNote": "สาย Crack เนื่องจากกระรอกกัด",
-          "Remark": "กระรอกกัดจนเสียหมดทุุก Core"
-        }
-      ]
-    }
-  ],
-  "JobTaskList": [
-    {
-      "id": 1,
-      "JobINX": 1,
-      "JobWithFlocINX": 1,
-      "JobWithActionTakenPointINX": 1,
-      "TaskList": [
-        {
-          "TaskINX": 1,
-          "SiteFloc": {
-            "INX": 1,
-            "ID": "PEA-1-N3-0001",
-            "Name": "สฟฟ.เชียงคาน"
-          },
-          "WorkAction": {
-            "INX": 1,
-            "ID": "WIRE_OVER",
-            "Name": "ลากคร่อม"
-          },
-          "WorkActionNote": "ลากคร่อม200 เมตร จากระยะ 1500 จาก สฟฟ เชียงคาน",
-          "StartTaskDate": "2017-07-04T18:01:01",
-          "FinishTaskDate": "2017-07-04T20:15:12",
-          "IsTempWork": "N",
-          "Remark": "จุดที่ลากคร่อมลากผ่านตลาดเทศบาล ได้รับอนุญาตให้ใช้ได้เพียง 1 เดือน จากนั้นต้องปลดออก"
         },
         {
-          "TaskINX": 2,
-          "SiteFloc": {
-            "INX": 2,
-            "ID": "PEA-1-N3-0001",
-            "Name": "สฟฟ.เชียงคาน"
-          },
-          "WorkAction": {
-            "INX": 4,
-            "ID": "CORE_OP",
-            "Name": "โยก Core"
-          },
-          "WorkActionNote": "",
-          "StartTaskDate": "2017-07-04T18:01:01",
-          "FinishTaskDate": "2017-07-04T20:15:12",
-          "IsTempWork": "Y",
-          "Remark": ""
+            "INX": "1",
+            "ID": "1555",
+            "Name": "สัญญา Loss"
         },
         {
-          "TaskINX": 3,
-          "SiteFloc": {
-            "INX": 1,
-            "ID": "PEA-1-N3-0001",
-            "Name": "สฟฟ.เชียงคาน"
-          },
-          "WorkAction": {
-            "INX": 6,
-            "ID": "PLAN_NEXTFIX",
-            "Name": "วางแผนกลับมาแก้ไข"
-          },
-          "WorkActionNote": "",
-          "StartTaskDate": "2017-07-04T18:01:01",
-          "FinishTaskDate": "2017-07-04T20:15:12",
-          "IsTempWork": "N",
-          "Remark": ""
+            "INX": "2",
+            "ID": "1555",
+            "Name": "สัญญา Loss 1"
+        },
+        {
+            "INX": "3",
+            "ID": "1555",
+            "Name": "สัญญา Loss 3"
+        },
+        {
+            "INX": "4",
+            "ID": "1555",
+            "Name": "สัญญา Loss 4"
+        },
+        {
+            "INX": "5",
+            "ID": "1555",
+            "Name": "สัญญา Loss 5"
+        },
+        {
+            "INX": "6",
+            "ID": "1555",
+            "Name": "สัญญา Loss 6"
+        },
+        {
+            "INX": "7",
+            "ID": "1555",
+            "Name": "สัญญา Loss 7"
+        },
+        {
+            "INX": "18",
+            "ID": "1555",
+            "Name": "สัญญา Loss 8"
+        },
+        {
+            "INX": "9",
+            "ID": "1555",
+            "Name": "สัญญา Loss 9"
+        },
+        {
+            "INX": "10",
+            "ID": "1555",
+            "Name": "สัญญา Loss 10"
+        },
+        {
+            "INX": "11",
+            "ID": "1555",
+            "Name": "สัญญา Loss 11"
         }
-      ]
-    }
-  ],
-  "ProblemCause": [
-    {
-      "INX": "555554",
-      "ID": "C457777755",
-      "Name": "กระรอกกัด"
-    },
-    {
-      "INX": "554",
-      "ID": "C4555",
-      "Name": "Core Crack"
-    },
-    {
-      "INX": "1",
-      "ID": "1555",
-      "Name": "สัญญา Loss"
-    },
-    {
-      "INX": "2",
-      "ID": "1555",
-      "Name": "สัญญา Loss 1"
-    },
-    {
-      "INX": "3",
-      "ID": "1555",
-      "Name": "สัญญา Loss 3"
-    },
-    {
-      "INX": "4",
-      "ID": "1555",
-      "Name": "สัญญา Loss 4"
-    },
-    {
-      "INX": "5",
-      "ID": "1555",
-      "Name": "สัญญา Loss 5"
-    },
-    {
-      "INX": "6",
-      "ID": "1555",
-      "Name": "สัญญา Loss 6"
-    },
-    {
-      "INX": "7",
-      "ID": "1555",
-      "Name": "สัญญา Loss 7"
-    },
-    {
-      "INX": "18",
-      "ID": "1555",
-      "Name": "สัญญา Loss 8"
-    },
-    {
-      "INX": "9",
-      "ID": "1555",
-      "Name": "สัญญา Loss 9"
-    },
-    {
-      "INX": "10",
-      "ID": "1555",
-      "Name": "สัญญา Loss 10"
-    },
-    {
-      "INX": "11",
-      "ID": "1555",
-      "Name": "สัญญา Loss 11"
-    }
-  ]
+    ]
 }
