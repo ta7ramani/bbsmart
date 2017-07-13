@@ -55,15 +55,6 @@
                 "EndPointURL":"http://103.40.138.150/BBsmartNet/Api2"
             },
             {
-                "JobTypeCode": "MCM",
-                "JobTypeCodeName": "MTN",
-                "ProjectDesc": "PEA CM DEMO",
-                "NewJobTotal": 0,
-                "MyJobTotal": 10,
-                "EndPoint": "JMG",
-                "EndPointURL":"http://103.40.138.150/BBSmartRc"
-            },
-            {
                 "JobTypeCode": "PCM",
                 "JobTypeCodeName": "MTN",
                 "ProjectDesc": "PEA CM (T1)",
