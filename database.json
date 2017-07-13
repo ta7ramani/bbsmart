@@ -40,7 +40,7 @@
             {
                 "JobTypeCode": "PCM",
                 "JobTypeCodeName": "MTN",
-                "ProjectDesc": "PEA CM (T1)",
+                "ProjectDesc": "PEA CM (T1 test on BENCHA)",
                 "NewJobTotal": 0,
                 "MyJobTotal": 10,
                 "EndPoint": "JMG",
