@@ -53,6 +53,24 @@
                 "MyJobTotal": 10,
                 "EndPoint": "JMG",
                 "EndPointURL":"http://103.40.138.150/BBsmartNet/Api2"
+            },
+            {
+                "JobTypeCode": "PCM",
+                "JobTypeCodeName": "MTN",
+                "ProjectDesc": "PEA CM (T1)",
+                "NewJobTotal": 0,
+                "MyJobTotal": 10,
+                "EndPoint": "JMG",
+                "EndPointURL":"http://192.168.137.1/BBSmartNet/Api2"
+            },
+            {
+                "JobTypeCode": "PCM",
+                "JobTypeCodeName": "MTN",
+                "ProjectDesc": "PEA CM (T2)",
+                "NewJobTotal": 0,
+                "MyJobTotal": 10,
+                "EndPoint": "JMG",
+                "EndPointURL":"http://192.168.1.25/BBSmartNet/Api2"
             }
         ]
     },
