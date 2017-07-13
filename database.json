@@ -12,7 +12,7 @@
                 "JobTypeCode": "MCM",
                 "JobTypeCodeName": "MTN",
                 "ProjectDesc": "BTS CM",
-                "NewJobTotal": 0,
+                "NewJobTotal": 12,
                 "MyJobTotal": 0,
                 "EndPoint": "OTM"
             },
@@ -21,7 +21,7 @@
                 "JobTypeCodeName": "MTN",
                 "ProjectDesc": "PEA CM",
                 "NewJobTotal": 0,
-                "MyJobTotal": 0,
+                "MyJobTotal": 10,
                 "EndPoint": "JMG"
             }
         ]
