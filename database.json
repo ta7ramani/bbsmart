@@ -44,7 +44,7 @@
                 "NewJobTotal": 0,
                 "MyJobTotal": 10,
                 "EndPoint": "JMG",
-                "EndPointURL":"http://192.168.43.6/BBSmartNet/Api2"
+                "EndPointURL":"http://192.168.43.62/BBSmartNet/Api2"
             },
             {
                 "JobTypeCode": "PCM",
