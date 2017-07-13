@@ -120,7 +120,7 @@
     "FlocList": [{
             "id": 1,
             "FlocINX": 1,
-            "FlocID": "PEA-2-NE1-0001-002",
+            "FlocID": "PEA-2-NE1-0001-0002",
             "FlocName": "กฟส.เชียงคาน-สฟฟ.เชียงคาน",
             "FlocTypeINX": 2,
             "Endpoint1Floc": {
@@ -143,18 +143,18 @@
         {
             "id": 2,
             "FlocINX": 2,
-            "FlocID": "PEA-2-NE1-0001-003",
+            "FlocID": "PEA-2-NE1-0003-0004",
             "FlocName": "กฟส.AAAA-สฟฟ.BBBB",
             "FlocTypeINX": 2,
             "Endpoint1Floc": {
                 "FlocINX": 3,
-                "FlocID": "PEA-1-NE1-0001",
+                "FlocID": "PEA-1-NE1-0003",
                 "FlocName": "กฟส.AAAA",
                 "FlocTypeINX": 1
             },
             "Endpoint2Floc": {
                 "FlocINX": 4,
-                "FlocID": "PEA-1-NE1-0002",
+                "FlocID": "PEA-1-NE1-0004",
                 "FlocName": "สฟฟ.BBBBB",
                 "FlocTypeINX": 1
             },
@@ -166,19 +166,42 @@
         {
             "id": 3,
             "FlocINX": 3,
-            "FlocID": "PEA-2-NE1-0001-004",
+            "FlocID": "PEA-2-NE1-0005-0006",
             "FlocName": "กฟส.CCCC-สฟฟ.DDDD",
             "FlocTypeINX": 2,
             "Endpoint1Floc": {
                 "FlocINX": 3,
-                "FlocID": "PEA-1-NE1-0001",
+                "FlocID": "PEA-1-NE1-0005",
                 "FlocName": "กฟส.CCCC",
                 "FlocTypeINX": 1
             },
             "Endpoint2Floc": {
                 "FlocINX": 4,
-                "FlocID": "PEA-1-NE1-0002",
+                "FlocID": "PEA-1-NE1-0006",
                 "FlocName": "สฟฟ.DDDD",
+                "FlocTypeINX": 1
+            },
+            "MatTypeName": "ADSS",
+            "MatKindName": "G.652D",
+            "CoreOrPairQty": 24,
+            "MeasuredLengthInMetre": 8700
+        },
+        {
+            "id": 4,
+            "FlocINX": 3,
+            "FlocID": "PEA-2-NE1-0007-0008",
+            "FlocName": "กฟส.EEEE-สฟฟ.FFFF",
+            "FlocTypeINX": 2,
+            "Endpoint1Floc": {
+                "FlocINX": 3,
+                "FlocID": "PEA-1-NE1-0007",
+                "FlocName": "กฟส.EEEE",
+                "FlocTypeINX": 1
+            },
+            "Endpoint2Floc": {
+                "FlocINX": 4,
+                "FlocID": "PEA-1-NE1-0008",
+                "FlocName": "สฟฟ.FFFF",
                 "FlocTypeINX": 1
             },
             "MatTypeName": "ADSS",
