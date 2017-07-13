@@ -6,7 +6,8 @@
                 "ProjectDesc": "Transmission CM",
                 "NewJobTotal": 0,
                 "MyJobTotal": 0,
-                "EndPoint": "OTM"
+                "EndPoint": "OTM",
+                "EndPointURL":"http://103.40.138.150/BBSmart"
             },
             {
                 "JobTypeCode": "MCM",
@@ -14,7 +15,8 @@
                 "ProjectDesc": "BTS CM",
                 "NewJobTotal": 12,
                 "MyJobTotal": 0,
-                "EndPoint": "OTM"
+                "EndPoint": "OTM",
+                "EndPointURL":"http://103.40.138.150/BBSmart"
             },
             {
                 "JobTypeCode": "PCM",
@@ -22,7 +24,35 @@
                 "ProjectDesc": "PEA CM",
                 "NewJobTotal": 0,
                 "MyJobTotal": 10,
-                "EndPoint": "JMG"
+                "EndPoint": "JMG",
+                "EndPointURL":"http://103.40.138.150/BBSmart"
+            },
+            {
+                "JobTypeCode": "M",
+                "JobTypeCodeName": "MTN",
+                "ProjectDesc": "Transmission CM (RC)",
+                "NewJobTotal": 0,
+                "MyJobTotal": 0,
+                "EndPoint": "OTM",
+                "EndPointURL":"http://103.40.138.150/BBSmartRc"
+            },
+            {
+                "JobTypeCode": "MCM",
+                "JobTypeCodeName": "MTN",
+                "ProjectDesc": "BTS CM (RC)",
+                "NewJobTotal": 12,
+                "MyJobTotal": 0,
+                "EndPoint": "OTM",
+                "EndPointURL":"http://103.40.138.150/BBSmartRc"
+            },
+            {
+                "JobTypeCode": "PCM",
+                "JobTypeCodeName": "MTN",
+                "ProjectDesc": "PEA CM (RC)",
+                "NewJobTotal": 0,
+                "MyJobTotal": 10,
+                "EndPoint": "JMG",
+                "EndPointURL":"http://103.40.138.150/BBsmartNet/Api2"
             }
         ]
     },
